@@ -1,0 +1,5 @@
+<h1>Hi,{{ request.user.username }} You have logged succesfully</h1>
+
+<a href="{% url 'log:logout' %} ">Logout?</a>
+{% block content %}
+{% endblock %}
